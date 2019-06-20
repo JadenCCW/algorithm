@@ -54,6 +54,7 @@ public class BFS3 {
 					continue;
 				result += curr + " ";
 				q.add(curr);
+				v[curr] = true;
 			}
 		}
 	}
